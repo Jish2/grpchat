@@ -1,0 +1,17 @@
+{
+  "name": "grpchat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "bun run src/server.ts",
+    "client": "bun run src/client.ts"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.7.15"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
