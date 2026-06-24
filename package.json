@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "server": "bun run src/server.ts",
-    "client": "bun run src/client.ts"
+    "client": "bun run src/client.ts",
+    "dev": "./scripts/dev.sh"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.13.4",
